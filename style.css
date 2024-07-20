@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-photo/top-view-notebooks-cup-coffee-pen-wooden-table_35674-5992.jpg?w=1060);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+.todo{
+    width:35vw;
+    height: 50vh;
+    margin: auto auto;
+    margin-left: 50vw;
+    margin-top: 20vh;
+    border-radius: 15px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtPu-KlfzJaaH_3THGTrp8xcAqyhX9xwtkIpzWdloeFRoFoPOe9tYUJSYWkhdMseGljFk&usqp=CAU);
+}
+
+.todo h2{
+    text-align: center;
+    font-size: 2vw;
+}
+.todo h3 i{
+    position: relative;
+    left: 5%;
+    top:3vh;
+    font-size: 1.5vw;
+}
+.todo p i{
+    position: relative;
+    left: 90%;
+    bottom: 5vh;
+    font-size: 1.5vw;
+}
+.row2 input{
+    width:50%;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #555;
+    margin-left: 5%;
+    padding: 10px;
+}
+.row2 select{
+    border: none;
+    width: 20%;
+    height: 5vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #555;
+}
+.row2 button{
+    border: none;
+    width: 12%;
+    height: 5vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #555;
+    background-color: rgb(187, 83, 83);
+    cursor: pointer;
+}
+.row2 button:hover{
+    border: none;
+    width: 10%;
+    height: 5vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #555;
+    background-color: rgb(183, 112, 112);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 5%;
+    background-color: #f7f2f2;
+
+}
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+li.important {
+    background-color: #ffdddd;
+}
+
+li.less-important {
+    background-color: #c8d4df;
+}
+
+.task-buttons button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-buttons .edit {
+    background-color: #ffc107;
+    color: white;
+}
+
+.task-buttons .delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.task-buttons .complete {
+    background-color: #28a745;
+    color: white;
+}
+@media screen and (max-width:768px){
+    .todo{
+        width:65vw;
+        height: 50vh;
+        margin: auto auto;
+        margin-left: 20vw;
+        margin-top: 20vh;
+        border-radius: 15px;
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtPu-KlfzJaaH_3THGTrp8xcAqyhX9xwtkIpzWdloeFRoFoPOe9tYUJSYWkhdMseGljFk&usqp=CAU);
+    }
+    .todo h2{
+        text-align: center;
+        font-size: 3vh;
+    }
+}
